@@ -1,256 +1,136 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Contato | Barbearia Alura</title>
-        <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/header.css">
-        <link rel="stylesheet" href="assets/css/footer.css">
-        <link rel="stylesheet" href="assets/css/contato.css">
-        <link rel="stylesheet" href="assets/css/medias.css">
-        <link rel="stylesheet" href="assets/css/body.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <a href="#conteudoPrincipal">Pular para o conteúdo principal</a>
-            <div class="caixa">
-                <h1><img src="assets/img/logo.png" alt="Logo da barbearia Alura"></h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <main>
-            <form>
-                <fieldset>
-                    <label for="nome-sobrenome">Nome e Sobrenome</label>
-                    <input type="text" id="nome-sobrenome" class="input-padrao" required>
-
-                    <label for="telefone">Telefone</label>
-                    <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX"required>
-
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" class="input-padrao" placeholder="seuemail@seudomínio.com" required>
-
-                    <label for="mensagem">Mensagem</label>
-                    <textarea cols="75" rows="10" id="mensagem" class="input-padrao" required></textarea>
-                </fieldset>
-
-                <fieldset>    
-                    <legend>Como prefere nosso contato?</legend>
-                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
-                    
-
-                    <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
-                
-
-                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Qual horário prefere ser atendido?</legend>
-                    <select>
-                        <option>Manhã</option>
-                        <option>Tarde</option>
-                        <option>Noite</option>
-                    </select>
-                </fieldset>
-
-                <label for="checkbox"><input type="checkbox" class="checkbox" checked id="checkbox"> Gostaria de receber nossas novidades por e-mail?</label>
-
-                <input type="submit" value="Enviar formulário" class="enviar">
-            </form>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>Dia</th>
-                        <th>Horário</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Segunda-feira</td>
-                        <td>08h às 20h</td>
-                    </tr>
-                    <tr>
-                        <td>Quarta-feira</td>
-                        <td>08h às 20h</td>
-                    </tr>
-                    <tr>
-                        <td>Sexta-feira</td>
-                        <td>08h às 20h</td>
-                    </tr>
-                </tbody>
-            </table>
-        </main>
-        <footer>
-            <img src="assets/img/logo-branco.png" alt="Logo da barbearia Alura">
-            <p class="Copyright">&copy;Copyright Barbearia Alura - 2021</p>
-        </footer>
-    </body>
-</html>
-
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Contato | Barbearia Alura</title>
-        <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/header.css">
-        <link rel="stylesheet" href="assets/css/footer.css">
-        <link rel="stylesheet" href="assets/css/contato.css">
-        <link rel="stylesheet" href="assets/css/medias.css">
-        <link rel="stylesheet" href="assets/css/body.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <a href="#conteudoPrincipal">Pular para o conteúdo principal</a>
-            <div class="caixa">
-                <h1><img src="assets/img/logo.png" alt="Logo da barbearia Alura"></h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <main>
-            <form>
-                <fieldset>
-                    <label for="nome-sobrenome">Nome e Sobrenome</label>
-                    <input type="text" id="nome-sobrenome" class="input-padrao" required>
-
-                    <label for="telefone">Telefone</label>
-                    <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX"required>
-
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" class="input-padrao" placeholder="seuemail@seudomínio.com" required>
-
-                    <label for="mensagem">Mensagem</label>
-                    <textarea cols="75" rows="10" id="mensagem" class="input-padrao" required></textarea>
-                </fieldset>
-
-                <fieldset>    
-                    <legend>Como prefere nosso contato?</legend>
-                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
-                    
-
-                    <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
-                
-
-                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Qual horário prefere ser atendido?</legend>
-                    <select>
-                        <option>Manhã</option>
-                        <option>Tarde</option>
-                        <option>Noite</option>
-                    </select>
-                </fieldset>
-
-                <label for="checkbox"><input type="checkbox" class="checkbox" checked id="checkbox"> Gostaria de receber nossas novidades por e-mail?</label>
-
-                <input type="submit" value="Enviar formulário" class="enviar">
-            </form>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>Dia</th>
-                        <th>Horário</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Segunda-feira</td>
-                        <td>08h às 20h</td>
-                    </tr>
-                    <tr>
-                        <td>Quarta-feira</td>
-                        <td>08h às 20h</td>
-                    </tr>
-                    <tr>
-                        <td>Sexta-feira</td>
-                        <td>08h às 20h</td>
-                    </tr>
-                </tbody>
-            </table>
-        </main>
-        <footer>
-            <img src="assets/img/logo-branco.png" alt="Logo da barbearia Alura">
-            <p class="Copyright">&copy;Copyright Barbearia Alura - 2021</p>
-        </footer>
-    </body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Produtos | Barbearia Alura</title>
-        <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/header.css">
-        <link rel="stylesheet" href="assets/css/footer.css">
-        <link rel="stylesheet" href="assets/css/produtos.css">
-        <link rel="stylesheet" href="assets/css/medias.css">
-        <link rel="stylesheet" href="assets/css/body.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <a href="#conteudoPrincipal">Pular para o conteúdo principal</a>
-            <div class="caixa">
-                <img src="assets/img/logo.png" alt="Logo da barbearia Alura">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <ul class="produtos">
-                <li>
-                    <h1>Cabelo</h1>
-                    <img src="assets/img/cabelo.jpg" alt>
-                    <h2 class="produto-descricao">Na tesoura ou na máquina, como o cliente preferir</h2>
-                    <h3 class="produtos-preco">R$ 25,00</h3>
-                </li>
-                <li>
-                    <h1>Barba</h1>
-                    <img src="assets/img/barba.jpg">
-                    <h2   class="produto-descricao">Corte e desenho profissional de barba</h2>
-                    <h3 class="produtos-preco">R$ 18,00</h3>
-                </li>
-                <li>
-                    <h1>Cabelo + Barba</h1>
-                    <img src="assets/img/cabelo+barba.jpg">
-                    <h2 class="produto-descricao">Pacote completo de cabelo e barba</h2>
-                    <h3 class="produtos-preco">R$ 35,00</h3>
-                </li>
-            </ul>
-        </main>
-
-        <footer>
-            <img src="assets/img/logo-branco.png" alt="Logo barbearia Alura">
-            <p class="Copyright">&copy;Copyright Barbearia Alura - 2021</p>
-        </footer>
-    </body>
-</html>
+HTML
+dos colonos
+144
+                <tr>
+145
+                    <td>Segunda</td>
+146
+                    <td>8h ~ 20h</td>
+147
+                </tr>
+148
+                <tr>
+149
+                    <td>Quarta</td>
+150
+                    <td>8h ~ 20h</td>
+151
+                </tr>
+152
+                <tr>
+153
+                    <td>Sexta</td>
+154
+                    <td>8h ~ 20h</td>
+155
+                </tr>
+156
+            </tbody>    
+157
+        </table>
+158
+​
+159
+    </div>
+160
+</footer>
+161
+<body>
+162
+    <!--cabeçalho-->
+163
+    <header>
+164
+        <div class="caixa">
+165
+            <h1><img src="logo.png"></h1>
+166
+​
+167
+            <!--A tag <nav> define um conjunto de links de navegação-->
+168
+            <nav>
+169
+                <ul class="navegacao">
+170
+                    <li><a href="index.html">Home</a></li>
+171
+                    <li><a href="produtos.html">Produtos</a></li>
+172
+                    <li><a href="contato.html">Contato</a></li>
+173
+                </ul>
+174
+            </nav>
+175
+        </div>
+176
+    </header>
+177
+​
+178
+    <!--Define o conteúdo principal dentro do <body>-->
+179
+    <main>
+180
+        <ul class="produtos">
+181
+            <li>
+182
+                <h2>Cabelo</h2>
+183
+                <img src="cabelo.jpg">
+184
+                <p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir </p>
+185
+                <p class="produto-preco">R$ 25,00</p>
+186
+            </li>
+187
+​
+188
+            <li>
+189
+                <h2>Barba</h2>
+190
+                <img src="barba.jpg">
+191
+                <p class="produto-descricao">Corte e desenho profissional de barba</p>
+192
+                <p class="produto-preco">R$ 18,00</p>
+193
+            </li>
+194
+​
+195
+            <li>
+196
+                <h2>Cabelo + Barba</h2>
+197
+                <img src="cabelo+barba.jpg">
+198
+                <p class="produto-descricao">Pacote completo de cabelo e barba</p>
+199
+                <p class="produto-preco">R$ 35,00</p>
+200
+            </li>
+201
+        </ul>
+202
+    </main>
+203
+​
+204
+    <!--Rodapé-->
+205
+    <footer>
+206
+        <img src="logo-branco.png">
+207
+        <!-- &copy; é um Unicode -->
+208
+        <p class="copyright">&copy; Copyright Barbearia Alura – 2022</p>
+209
+    </footer>
+210
+</body>
